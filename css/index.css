@@ -1,16 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
 
-.box{
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.box {
     background-color:white;
     height: auto;
     text-emphasis: justify;
     box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.2);
     border-radius: 1em;
     color: rgb(94, 92, 92);
-    margin: 10em;
-    
-}
+    margin: 10em;}
 
+
+    
 .pic{
     border-radius: 1em 1em 0 0 ;
     width: 100%;
@@ -47,7 +69,7 @@
     background-color: white;
     color: black;
     font-weight: 700;
-    justify-content: left; 
+    justify-content: left;
 }
 
 .bed2{
@@ -114,3 +136,5 @@ h4{
 body{
     background-color: #eeeeee;
 }
+
+
